@@ -1,0 +1,37 @@
+{
+  "name": "my-starter-v0.0.2",
+  "author": {
+    "name": "Imbar Winata",
+    "email": "imbarwinata@gmail.com",
+    "url": "imbarwinata.com"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:pwa": "react-scripts build && sw-precache --config=sw-precache-config.js",
+    "eject": "react-scripts eject",
+    "start:prod": "NODE_ENV=production node server",
+    "start:production": "npm run build && npm run start:prod",
+    "start:production:pwa": "npm run build:pwa && npm run start:prod",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "sw-precache": "^5.2.1"
+  }
+}
