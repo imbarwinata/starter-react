@@ -21,7 +21,7 @@ export const PublicRoute = ({
   />
 );
 
-PrivateRoute.propTypes = {
+PublicRoute.propTypes = {
   isAuthenticated: PropTypes.bool.isRequired
 };
 
