@@ -130,10 +130,8 @@ self.addEventListener('activate', function(event) {
 self.addEventListener('fetch', function(event) {
   if (event.request.method === 'GET') {
     console.log('starting fethcing data by custom service worker');
-    {# 
-    - Custom Service Worker for fetch in here 
-    - See documentation : https://github.com/GoogleChromeLabs/sw-precache
-    #}
+    // - Custom Service Worker for fetch in here 
+    // - See documentation : https://github.com/GoogleChromeLabs/sw-precache
 
     // Should we call event.respondWith() inside this fetch event handler?
     // This needs to be determined synchronously, which will give other fetch

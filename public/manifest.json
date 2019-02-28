@@ -1,15 +1,20 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
+  "short_name": "React Starter",
+  "name": "React Starter",
+  "description": "React Starter description",
+  "icons": [{
+    "src": "favicon.ico",
+    "sizes": "64x64 32x32 24x24 16x16",
+    "type": "image/x-icon"
+  }],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#00a1ff",
+  "background_color": "#ffffff",
+  "prefer_related_applications": false,
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.bareksa.app",
+    "id": "com.bareksa.app"
+  }]
 }
