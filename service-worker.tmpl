@@ -121,7 +121,7 @@ self.addEventListener('activate', function(event) {
     }).then(function() {
       <% if (clientsClaim) { %>
       return self.clients.claim();
-      <% } %>
+      <% } %>ss
     })
   );
 });
