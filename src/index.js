@@ -8,6 +8,9 @@ import configureStore from "./store";
 // Required for router setup
 import AppRouter from 'routers';
 
+// Setup global style
+import './sass/main.scss';
+
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
