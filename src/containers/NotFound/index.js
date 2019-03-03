@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
-import NotFoundComponent from '../../components/NotFound';
+import NotFoundComponent from 'components/NotFound';
 
 class NotFound extends React.Component {
     render() {

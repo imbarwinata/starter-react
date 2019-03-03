@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
-import LoginComponent from '../../components/Login';
+import LoginComponent from 'components/Login';
 
 class Login extends React.Component {
     render() {

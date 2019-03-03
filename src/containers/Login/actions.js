@@ -1,5 +1,5 @@
 /* 
-  src/actions/simpleAction.js
+  app/actions/simpleAction.js
 */
 export const simpleAction = () => dispatch => {
     dispatch({

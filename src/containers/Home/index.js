@@ -1,10 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Helmet } from 'react-helmet';
-import HomeComponent from '../../components/Home';
+import HomeComponent from 'components/Home';
+import * as Sentry from '@sentry/browser';
 
 class Home extends React.Component {
     render() {
+      // Example Use Log Sentry
+      Sentry.captureException("Test Error 2");
+      
       return(
         <article>
           <Helmet>

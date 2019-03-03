@@ -1,5 +1,5 @@
 /* 
-  src/reducers/simpleReducer.js
+  app/reducers/simpleReducer.js
 */
 export default (state = {}, action) => {
     switch (action.type) {
