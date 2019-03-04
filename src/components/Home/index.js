@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { FormattedMessage } from 'react-intl';
 
 class HomeComponent extends Component {
     render() {
         return (
             <div>
-                Home Page
+                <FormattedMessage id="Home.title"/>                
             </div>
         );
     }
